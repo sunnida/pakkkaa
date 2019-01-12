@@ -1,0 +1,56 @@
+body{
+  height: 100%;
+}
+#container{
+  position: relative;
+  min-height: 100%;
+}
+ul{
+  list-style: none;
+  font: normal bold 20px AppleMyungjo;
+  margin:0;
+  padding: 0;
+}
+a{
+  color:black;
+  text-decoration: none;
+}
+main{
+  display: flex;
+  justify-content: center;
+  font: normal normal 15px AppleMyungjo;
+  padding: 30px;
+}
+#header{
+  display: flex;
+  justify-content: space-between;
+  padding: 0px;
+  height: 109px;
+  width: 100%;
+  margin:0;
+}
+.menu{
+  text-align: left;
+}
+.profile{
+  text-align: right;
+}
+.hangeul{
+  letter-spacing: -1.5px;
+  line-height: 20px;
+}
+.cat{
+  text-decoration: none;
+}
+.cat:hover{
+color:gray;
+}
+#footer{
+  display: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 20px;
+  text-align: center;
+  font: normal bold 12px AppleMyungjo;
+  margin:0;
+}
